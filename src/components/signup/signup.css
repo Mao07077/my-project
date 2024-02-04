@@ -1,0 +1,102 @@
+.bck {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; 
+    position: absolute;
+    box-shadow: 4px 4px 4px;
+    filter: blur(2px);
+    z-index: -1; 
+  }
+  .ind{
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: PT Sans Caption;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 4.16px;
+  }
+
+  .logo { 
+    width: 100px;
+    height: 30px;
+    left: 50%; 
+    top: 25%; 
+    transform: translate(40%, 160%); 
+  }
+  .slo{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inria Serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+
+  .FnLs{
+    gap: 30px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .FnLs input{
+    height: 30px;
+    font-size: 14px;
+
+
+  }
+  .isign{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: auto;
+        
+ }
+ .isign input{
+    height: 30px;
+    width: 500px;
+    font-size: 14px;
+ }
+
+ .Alaccount{
+  justify-content: center;
+  display: flex;
+ }
+  .frame {
+    width: 600px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(245, 245, 245, 0.90);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .50);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.signnn{
+  display: flex;
+  margin: auto;
+}
+.signn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #cecece;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}

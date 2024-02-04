@@ -1,0 +1,25 @@
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(104, 175, 86, 0.90);
+    padding: 28px;
+  }
+  
+  .logoos {
+    max-width: 10%;
+    position: absolute;
+    display: block;
+    left: 2%;
+    top:2%;
+    align-items: center;
+
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  

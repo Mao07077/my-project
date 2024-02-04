@@ -1,0 +1,147 @@
+/* Add this to your headers2.0.css file */
+
+.contt {
+  display: flex;
+  background-color: rgba(104, 175, 86, 0.90);
+  padding: 1%;
+  position: relative;
+}
+
+.logooss {
+  max-width: 10%;
+  position: absolute;
+  left: 5%;
+  bottom: 27%;
+  transition: left 0.3s ease; /* Added transition property */
+}
+
+.notif {
+  max-width: 3%;
+  position: absolute;
+  left: 88%;
+  bottom: 18%;
+}
+.notification-container{
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  left: 60%;
+  bottom: -665%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px  rgba(47, 48, 45, 0.596);
+    z-index: 9999; /* Set a high z-index value to ensure it's on top */
+}
+.home {
+  max-width: 3%;
+  position: absolute;
+  left: 93%;
+  bottom: 25%;
+}
+
+.icloo {
+  max-width: 90%;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+  align-items: center;
+}
+
+.btonn {
+  gap: 30px;
+  display: flex;
+  top: 40%;
+  flex-direction: column;
+  position: absolute;
+  left: 2%;
+}
+
+.hamburger-button {
+  margin-right: 16px;
+  transition: margin-right 0.3s ease, left 0.3s ease; /* Added transition property */
+}
+
+.hamburger-button.open {
+  background-color: transparent;
+  left: 12%; /* Adjust the value as needed */
+}
+
+.responsive-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 532px;
+  background-color: rgba(104, 175, 86, 0.90);
+  z-index: 1;
+}
+
+.menu-open .logooss {
+  left: 16%; /* Adjust the value as needed */
+}
+
+.menu-open .responsive-menu {
+  width: 12%; /* Adjust the value as needed */
+}
+
+.search-container {
+  margin-top: 10px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  left: 38%;
+  top: 20%;
+  position: absolute;
+}
+
+.eml {
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+}
+
+.setting {
+  width: 165%;
+  height: 30px;
+  
+}
+
+/* Styles for the fixed header */
+.contt.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.contt.fixed .logooss {
+  max-width: 8%; /* Adjust the value as needed */
+  bottom: 5%; /* Adjust the value as needed */
+  left: 2%; /* Adjust the value as needed */
+  transition: max-width 0.3s ease, left 0.3s ease, bottom 0.3s ease; /* Added transition property */
+}
+
+/* Add more styles for the fixed header as needed */
+.profile-pic{
+border: 2px solid #189232;
+border-radius: 10%;
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin-top: 15%;
+}
+.search-results{
+  padding: 10px;
+  width: 22.3%;
+  overflow-y: auto;
+  border: 1px solid #ffffff;
+background-color: white;
+  font-size: 16px;
+  left: 38%;
+  top: 70%;
+    position: absolute; /* Add this line */
+    z-index: 1; /* Add this line */
+}
